@@ -1,17 +1,25 @@
 {
-  "name": "Broadlink Manager",
-  "version": "1.0",
-  "maintainer": "Tomer Klein<tomer@klein.org.il>",
-  "slug": "Broadlink Manager",
-  "description": "Broadlink Manager add-on!",
+  "name": "Hass.io Broadlink Manager",
+  "version": "0.100.0",
+   "slug": "hassio_broadlink_manager",
+  "description": "Learn, Send, Convert RF/IR code the easy way",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/t0mer/broadlinkmanager-addon",
+  "startup": "application",
+  "boot": "auto",
+  "maintainer": "Tomer Klein<tomer.klein@gmail.com>",
+  "url": "https://github.com/t0mer/hassio-broadlink-manager",
+  "homeassistant_api": true,
+  "hassio_api": true,
+  "hassio_role": "manager",
+  "auth_api": true,
+  "webui": "[PROTO:use_ssl]://[HOST]:[PORT:7020]/",
   "panel_title": "Broadlink Manager",
-  "startup": "before",
+  "startup": "application",
   "boot": "auto",
   "options": {},
+},
   "schema": {},
   "ports": {
     "7020/tcp": 7020
   }
-}
+
