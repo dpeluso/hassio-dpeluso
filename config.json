@@ -1,0 +1,14 @@
+{
+  "name": "Broadlink Manager",
+  "version": "0.1",
+  "slug": "Broadlink Manager",
+  "description": "Broadlink Manager add-on!",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "7020/tcp": 7020
+  }
+}
