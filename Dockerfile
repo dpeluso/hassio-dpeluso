@@ -1,14 +1,13 @@
-FROM ubuntu:18.04
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 LABEL maintainer="tomer.klein@gmail.com"
 
 ENV PYTHONIOENCODING=utf-8
 
 #install pip3
-RUN apt update
-
-RUN apt install python3-pip --yes
-
+#RUN apt update
+#RUN apt install python3-pip --yes
 RUN  pip3 install flask flask_restful cryptography==2.6.1 broadlink --no-cache-dir
 
 #Create working directory
