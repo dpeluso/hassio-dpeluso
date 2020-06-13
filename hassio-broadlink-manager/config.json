@@ -1,0 +1,25 @@
+{
+  "name": "Hass.io Broadlink Manager",
+  "version": "0.100.0",
+  "maintainer": "Tomer Klein<tomer@klein.org.il>",
+  "slug": "hassio_broadlinkmanager_addon",
+  "description": "Broadlink Manager add-on!",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/t0mer/broadlinkmanager-addon",
+  "panel_title": "Broadlink Manager",
+  "startup": "application",
+  "homeassistant_api": true,
+  "hassio_api": true,
+  "hassio_role": "manager",
+  "auth_api": true,
+  "webui": "[PROTO:use_ssl]://[HOST]:[PORT:7020]/",
+  "ingress": true,
+  "panel_icon": "mdi:radio-tower",
+  "panel_admin": true,
+  "options": {},
+  "schema": {},
+  "ports": {
+    "7020/tcp": 7020
+  },
+  "image": "techblog/hassio-broadlink-manager-{arch}"
+}
