@@ -8,6 +8,7 @@
   "url": "https://github.com/t0mer/broadlinkmanager-addon",
   "panel_title": "Broadlink Manager",
   "startup": "application",
+  "boot": "auto",
   "homeassistant_api": true,
   "hassio_api": true,
   "hassio_role": "manager",
