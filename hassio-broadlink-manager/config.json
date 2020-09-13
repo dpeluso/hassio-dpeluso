@@ -1,6 +1,6 @@
 {
   "name": "Hass.io Broadlink Manager",
-  "version": "0.100.0",
+  "version": "latest",
   "maintainer": "Tomer Klein<tomer@klein.org.il>",
   "slug": "hassio_broadlinkmanager_addon",
   "description": "Broadlink Manager add-on!",
