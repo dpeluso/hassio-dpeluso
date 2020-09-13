@@ -22,5 +22,5 @@
   "ports": {
     "7020/tcp": 7020
   },
-  "image": "techblog/hassio-broadlink-manager-{arch}"
+  "image": "techblog/broadlinkmanager"
 }
